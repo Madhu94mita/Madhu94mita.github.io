@@ -1,0 +1,892 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700|Nosifer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+var i=0;
+function f()
+{
+if(i==0)
+{
+document.getElementById('menu_holder').style.display="block";
+i=1;
+}
+else
+{
+document.getElementById('menu_holder').style.display="none";
+i=0;
+}
+}
+</script>
+<style>
+body{
+margin:0px;padding:0px;width:100%; font-family: 'Poppins', sans-serif;font-weight:bold;}
+
+.header{
+width:100%;
+height:80px;
+background-color:white;
+box-sizing:border-box;
+position:fixed;
+margin:0px;
+padding:0px;
+top:0;
+z-index:999;
+
+}
+
+.container{
+width:100%;
+//border:2px solid yellow;
+box-sizing:border-box;
+height:78px;
+padding-left:10px;
+padding-right:10px;
+margin:0px auto;
+}
+
+.left_cont{
+width:100%;
+//border:2px solid yellow;
+box-sizing:border-box;
+height:78px;
+margin:0px;
+
+font-size:20px;
+font-family: 'Nosifer', cursive;
+text-align:center;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+
+}
+
+
+
+.right_cont{
+//border:2px solid orange;
+box-sizing:border-box;
+
+margin:0px;
+padding-left:10px;
+padding-right:10px;
+height:auto;
+}
+
+ul{list-style-type:none;padding:0px;}
+li{width:100%;text-align:left;padding-left:10px;padding-right:10px;box-sizing:border-box;}
+
+@media only screen and (min-width:1200px) {.container{width:1170px;}
+ul{font-family: 'Nosifer', cursive;font-size:20px;}.header{font-weight:normal;}.left_cont{font-size:35px!important;}}
+
+@media only screen and (min-width:992px) and (max-width:1200px){.container{width:970px;}
+}
+
+@media only screen and (min-width:800px) and (max-width: 992px){.container{width:745px;}
+}
+
+@media only screen and (min-width:800px){
+.right_cont{width:75%;float:left;height:78px;}
+.left_cont{width:25%;float:left;font-size:25px;}
+li{float:left;width:25%}
+#menu_holder{width:75%;height:78px;margin-left:25%;display:block!important;}
+}
+
+@media only screen and (max-width:800px){
+.togg_ic{
+height:25px;width:25px;background-color:black;margin-left:90%;margin-top:-35px;
+}
+#menu_holder{display:none;}
+.left_cont{text-align:left;padding-left:20px;}
+}
+<!--------------------------------------------------------->
+
+.sect{}
+
+#one{
+margin-top:85px;
+//border:2px solid orange;
+background-attachment:fixed;
+background-image:url("2.jpg");
+width:90%;
+height:700px;
+background-repeat:no-repeat;
+background-size: 75%;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+.sect_one_cont{
+height:auto;
+width:30%;
+box-sizing:border-box;
+box-shadow: 10px 10px 5px #888888;
+padding:20px;
+margin-top:180px;
+font-size:35px;
+background-color:black;
+opacity:0.8;
+color:white;
+position:absolute;
+}
+
+@media only screen and (min-width:1200px){.sect_one_cont{margin-left:60%;}}
+@media only screen and (min-width:1000px) and (max-width:1200px){
+.sect_one_cont{font-size:28px;color:orange;margin-top:150px;margin-left:55%;}
+#one{background-size:80%;}
+}
+
+@media only screen and (min-width:800px) and (max-width:1000px){
+.sect_one_cont{font-size:24px;color:yellow;margin-top:150px;margin-left:60%}
+#one{background-size:92%;}
+}
+
+@media only screen and (min-width:600px) and (max-width:800px){
+.sect_one_cont{font-size:25px;margin-top:200px;margin-left:15%;margin-right:10%;width:50%;
+opacity:1;background-color:white;color:green;}
+#one{width:80%;padding:10px;background-size:90%;background-position:center;}
+}
+
+@media only screen and (max-width:600px){
+#one{width:90%;background-size:90%;background-position:50% 20%;}
+.sect_one_cont{font-size:23px;width:80%;margin-top:60%;
+opacity:1;background-color:white;color:green;margin-left:5%;
+margin-right:10%;}
+}
+<!---->
+#two{
+width:100%;
+height:700px;
+color:red;
+position:relative;
+padding-top:90px;
+background-image:url("we.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+box-sizing:border-box;
+}
+
+.join{
+border-right:15px solid orange;
+height:250px;
+width:10px;
+margin-left:80%;
+margin-top:480px;
+position:absolute;
+z-index:2;
+}
+
+.ser_logo{
+height:140px;width:140px;margin-top:15px;margin-left:5px;
+border-radius:50%;
+}
+
+.ser_logo_cont{
+border-radius:500px;
+box-shadow: 10px 10px 5px #888888;
+height:200px;width:200px;
+background-image:url("j.jpg");
+height:180px;width:180px;
+margin-left:80%;
+margin-top:-70px;
+position:absolute;
+z-index:3;
+float:left;
+}
+
+hr{border-width: 5px;border-color:orange;}
+
+.ser{
+height:100px;
+width:300px;
+margin-left:40%;
+float:left;
+background-image:url("j.jpg");
+box-shadow: 10px 10px 5px #888888;
+text-align:center;
+position:absolute;
+font-size:25px;
+font-family: 'Nosifer', cursive;
+padding-top:25px;
+box-sizing:border-box;
+}
+
+.ser_cards_cont{width:100%;
+border-top:5px solid white;border-left:5px solid white;height:600px;
+box-sizing:border-box;}
+
+.ser_cards{
+width:250px;
+height:300px;
+background-image:url("j.jpg");
+margin-left:5%;
+margin-right:5%;
+opacity:0.8;
+float:left;
+margin-top:150px;
+font-family: 'Poppins', sans-serif;
+padding:15px;
+box-sizing:border-box;
+text-align:left;
+color:orange;
+box-shadow: 10px 10px 5px #888888;
+}
+
+.ser_cards:hover{transform: skewX(20deg); transition: all ease-in 300ms;}
+
+h1{ font-size: 18px;
+    margin-bottom:0px;
+	margin-top:0px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;}
+
+.ser_cards_logo{
+height:60px;
+width:60px;
+margin-left:0px;
+margin-top:15px;
+box-sizing:border-box;
+}
+.dots{font-size:25px;color:red;margin-top:-12px;margin-bottom:0px;}
+p{margin-top:1px;font-size:16px;}
+
+@media only screen and (min-width:1000px) and (max-width:1200px){
+.ser_cards{margin-left:3%;margin-right:3%;}
+}
+
+@media only screen and (min-width:800px) and (max-width:1000px){
+.ser_cards{width:300px;margin-left:4%;margin-right:4%;}
+.ser_logo_cont{margin-left:73%;margin-top:-50px;}
+.join{margin-left:78%;height:400px;margin-top:350px;}
+.ser{margin-left:40%;font-size:22px;width:270px;height:80px;}
+#two,.ser_cards_cont{height:1100px;}
+#last{width:82%;}
+}
+
+@media only screen and (max-width:800px){
+.ser_cards{float:none;width:90%;margin-left:auto;margin-right:auto;}
+#two,.ser_cards_cont{height:1500px;}
+.ser{margin-left:25%;font-size:20px;width:250px;height:80px;z-index:55;}
+.ser_logo_cont{margin-left:32%;margin-top:-150px;}
+.join{margin-left:32%;height:250px;margin-top:400px;}
+}
+
+.mid{
+height:250px;
+width:100%;
+background-image:url("mid.png");
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+margin:0px auto;
+
+}
+
+
+/*----------------------mid section----------------------------*/
+
+.mid_container {
+margin-top:15px;
+margin-bottom:10px;
+  margin-left: 200px;
+}
+
+.circle, .circle0, .circle1, .circle2, .circle3, .circle4, .circle5 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.mid_container:hover .circle, .mid_container:hover .circle0, .mid_container:hover .circle1, .mid_container:hover .circle2, .mid_container:hover .circle3, 
+.mid_container:hover .circle4, .mid_container:hover .circle5 {
+  transform: translateX(300px);
+}
+
+.circle0 {
+  background: PaleTurquoise;
+  transition: all 1.5s linear;
+}
+
+.circle1 {
+  background: salmon;
+  transition: all 1.5s ease;
+}
+
+.circle2 {
+  background: lightskyblue;
+  transition: all 1.5s ease-in;
+}
+
+.circle3 {
+  background: khaki;
+  transition: all 1.5s ease-out;
+}
+
+.circle4 {
+  background: mediumturquoise;
+  transition: all 1.5s ease-in-out;
+}
+
+.circle5 {
+  background: thistle;
+  transition: all 1.5s cubic-bezier(0, 1, 0.98, 0);
+}
+
+
+/*------------------The App section begins---------------*/
+
+
+#three{width:100%;
+height:2600px;
+position:relative;
+padding-top:50px;
+background-image:url("kk.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+box-sizing:border-box;
+}
+
+.app{
+height:100px;
+width:300px;
+margin-left:40%;
+float:left;
+background-color:white;
+box-shadow: 10px 10px 5px #888888;
+text-align:center;
+position:absolute;
+font-size:25px;
+font-family: 'Nosifer', cursive;
+padding-top:25px;
+box-sizing:border-box;
+z-index:99;
+margin-top:50px;
+}
+
+
+.app_logo_cont{
+border-radius:500px;
+box-shadow: 10px 10px 5px #888888;
+background-color:white;
+height:140px;width:140px;
+margin-left:45%;
+margin-top:-150px;
+position:absolute;
+z-index:3;
+float:left;
+}
+
+.app_logo{
+border-radius:50%;
+height:130px;
+width:130px;
+margin-left:0px;
+margin-top:15px;
+box-sizing:border-box;
+}
+
+.app_hr{
+margin-top:60px;
+width:60%;
+border-color:green;
+}
+
+.app_cards{
+margin-top:50px;
+width:100%;
+height:680px;
+//height:1700px;
+//position:relative;
+padding-top:50px;
+background-image:url("music.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+box-sizing:border-box;
+}
+
+.muse{
+margin-top:170px;
+margin-left:70%;
+background-color:black;
+//border:2px solid green;
+width:300px;
+//opacity:0.5;
+
+}
+
+.muse_cont{
+opacity:0.5;
+color:yellow;
+padding:10px;
+font-size:24px;
+width:250px;
+margin-top:150px;
+margin-left:100px;
+float:left;
+letter-spacing:1px;
+font-family: 'Pacifico', cursive;
+float:left;
+}
+
+
+#app_join{
+margin-top:-50px;
+margin-left:49%;
+height:200px;
+}
+
+.muse_cont1{
+brder:2px solid yellow; 
+margin-top:150px;
+height:60px;
+width:400px;
+color:orange;
+font-family: 'Lobster', cursive;
+font-size:40px;
+float:left;
+margin-left:20px;
+transform: skewY(-10deg);
+}
+
+.goog{
+width:200px;
+height:100px;
+margin-left:40%;
+transform: skewY(10deg);
+}
+
+
+
+/*-------------------------------------------------------------------*/
+.wrap {
+  box-sizing:border-box;
+  //border:2px solid green;
+  padding-top:90px;
+  padding-left:40%;
+}
+
+.app_container {
+  display: inline-block;
+  width: 150px;
+  height:150px;
+  
+}
+
+.box {
+  border-radius: 50%;
+  height: 40px;
+  margin: 50px auto;
+  width: 40px;
+}
+.wrap:hover .box {
+  transform: scale(2);
+}
+
+.box1 {
+  background: #60D4C8;
+  transition: all 100ms;
+}
+
+.box2 {
+  background: #46BAAF;
+  transition: all 500ms;
+}
+
+.box3 {
+  background: #3EA69B;
+  transition: all 1s;
+}
+
+
+
+.mc1{
+margin-top:-10px;
+margin-left:70%;
+background-color:black;
+//border:2px solid green;
+width:250px;
+height:250px;
+}
+
+.mc1_cont{
+opacity:0.5;
+color:yellow;
+padding:10px;
+font-size:24px;
+width:250px;
+margin-top:80px;
+margin-left:100px;
+float:left;
+letter-spacing:1px;
+font-family: 'Pacifico', cursive;
+float:left;
+}
+
+.mc1_cont1{
+brder:2px solid yellow; 
+margin-top:80px;
+height:60px;
+width:400px;
+color:orange;
+font-family: 'Lobster', cursive;
+font-size:40px;
+float:left;
+margin-left:20px;
+transform: skewY(-10deg);
+}
+
+.goog1{
+width:200px;
+height:100px;
+margin-left:40%;
+transform: skewY(10deg);
+}
+/*===========================================*/
+#mccal_join
+{
+margin-top:-40px;
+margin-left:49%;
+height:500px;
+z-index:0;
+}
+
+.mccal{
+margin-top:110px;
+margin-left:10px;
+margin-right:40px;
+//background-color:black;
+//border:2px solid green;
+width:260px;
+height:260px;
+float:left;
+position:relative;
+z-index:999;
+
+}
+
+.mccal_cont{
+//border:2px solid green;
+color:black;
+//padding:10px;
+font-size:24px;
+width:260px;
+margin-top:160px;
+margin-left:10px;
+margin-right:10px;
+float:left;
+letter-spacing:1px;
+font-family: 'Pacifico', cursive;
+float:left;
+}
+
+.mccal_cont1{
+margin-top:160px;
+height:100px;
+width:300px;
+color:black;
+font-family: 'Lobster', cursive;
+font-size:40px;
+float:left;
+margin-right:10px;
+margin-left:10px;
+box-sizing:border-box;
+}
+
+
+.mccal_container{
+width:100%;
+padding-left:180px;
+}
+
+.goog2{width:200px;
+height:100px;
+margin-left:70%;
+position:absolute;
+margin-top:-80px;
+transform: skewY(10deg);z-index:9;}
+
+.goog2:hover,.goog1:hover,.goog:hover{transform: skewY(-10deg);}
+.goo_cont{width:300px;margin-left:50%;margin-top:450px;border:8px solid orange;}
+/*---------------------------------------------------------------------------------*/
+
+#four{width:100%;
+height:1200px;}
+
+
+#coming{margin:0px;
+margin-left:80%;z-index:1;border-right:15px solid green;
+height:550px;}
+
+#com_card_cont{padding-left:3%;}
+
+#com_card{margin-left:2%;margin-right:2%;background-image:url("tt.jpg");opacity:1;}
+
+
+
+</style>
+</head>
+
+<body>
+<div class="header">
+	<div class="container">
+		<div class="left_cont">OneStoR
+			<div class="togg_ic" onClick="f();">			
+			</div>
+		</div>
+		<div class="right_cont">
+			<div id="menu_holder">
+			<ul>
+			<li>Muse</li>
+			<li>McOne</li>
+			<li>McCalc</li>
+			<li>Contact</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="one">
+
+	<div class="sect_one_cont">
+	WHAT WE DO?
+	<br/><br/>
+	We build apps customized to your needs.
+	</div>
+	
+	<div class="join"></div>
+	
+</div>
+
+<div id="two">
+
+	<div class="ser">
+	Our Services
+	</div>
+	
+	<div class="ser_logo_cont">
+		<div><img src="ser.png" class="ser_logo"/></div>		
+	</div>
+	
+	<hr/>
+	
+	<div class="ser_cards_cont">
+	<div class="ser_cards">
+	<img src="mobile.png" class="ser_cards_logo"/><br/><br/>
+	
+	<h1>App Development</h1>
+	<p class="dots">---</p>
+	<p>Lamco laboris nisi ut aliquip ex ea commodo conseqt.Ex ea commodo consequat. </p>
+	</div>
+	
+	<div class="ser_cards">
+	<img src="desk.jpg" class="ser_cards_logo"/><br/><br/>
+	<h1>Web Design</h1>
+	<p class="dots">---</p>
+	<p>
+	Lamco laboris nisi ut aliquip ex ea commodo conseqt.
+	Ex ea commodo consequat.</p>
+	</div>
+	
+	<div class="ser_cards" id="last">
+	<img src="services.png" class="ser_cards_logo"/><br/><br/>
+	<h1>Services</h1>
+	<p class="dots">---</p>
+	<p>
+	Lamco laboris nisi ut aliquip ex ea commodo conseqt.
+	Ex ea commodo consequat.</p>
+	</div>
+	
+</div>
+</div>
+
+<div class="mid">
+	
+  <div class="mid_container">
+  <div class="circle0"></div>
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+  <div class="circle4"></div>
+  <div class="circle5"></div>
+</div>
+	
+</div>
+
+<div id="three">
+	
+	<div class="app_logo_cont">
+		<div><img src="3.png" class="app_logo"/></div>		
+	</div>
+	<div class="join" id="app_join"></div>
+	<div class="app">
+		Apps
+	</div>
+	
+	<div class="app_logo_cont">
+		<div><img src="3.png" class="app_logo"/></div>		
+	</div>
+	
+	<hr class="app_hr"/>
+	
+	<div class="app_cards">
+		
+		<div class="muse_cont">
+		For the music lover in you.<br/>
+		Built with material design for customizing the looks.
+		<br/>
+		<a href="">Know More</a>
+		</div>
+	
+		<div class="muse_cont1">
+		<u>Muse™ - Music Player</u>
+		</div>
+		
+		<div class="muse">
+		<img src="muse.webp" />
+		</div>
+		
+		<div class="goog">
+		<img src="goo.png" height="150px" width="300px"/>
+		</div>
+	</div>
+	
+	<hr>
+	<div class="app_cards" style="background-image:url(kk.jpg)">
+		
+		<div class="wrap">
+		
+			 <div class="app_container">
+				<div class="box1 box"></div>
+			</div>
+			<div class="app_container">
+				<div class="box2 box"></div>
+			</div>
+			
+			<div class="app_container">
+				<div class="box3 box"></div>
+			</div>
+		</div>
+		
+		<div class="mc1_cont " >
+		Because safety is the key.<br/>
+		It is upto you and me.
+		<br/>
+		<a href="">Know More</a>
+		</div>
+	
+		<div class="mc1_cont1">
+		<u>McOne - Personal safety app!</u>
+		</div>
+		
+		<div class="mc1">
+		<img src="mc1.webp" />
+		</div>
+		
+		<div class="goog1">
+		<img src="goo.png" height="150px" width="300px"/>
+		</div>
+	
+	</div>
+	
+	
+	<div class="app_cards" style="background-image:url(g.jpg)">
+		
+		
+		<div class="join" id="mccal_join"></div>
+		
+		
+	<div class="mccal_container">
+		<div class="mccal_cont1">
+		<u>McCal - Scientific Calculator</u>
+		</div>
+		
+		<div class="mccal">
+		<img src="mccal.webp" height="280px" width="280px" />
+		</div>
+		
+		<div class="mccal_cont " >
+		Doing calculations just got easier.
+		<br/>
+		<a href="">Know More</a>
+		</div>
+		
+	</div>
+		
+	<div class="goo_cont"></div>
+	<div class="goog2">
+		<img src="goo.png" height="150px" width="300px"/>
+	</div>
+		
+	<div class="join" id="coming"></div>
+	</div>
+	
+	
+	
+	
+</div>
+
+	
+<div id="two" style="background-image:url(mid.png)">
+
+	<div class="ser">
+	Coming Soon
+	</div>
+	
+	<div class="ser_logo_cont">
+		<div><img src="wait.jpg" class="ser_logo"/></div>		
+	</div>
+	
+	<hr/>
+	
+	<div class="ser_cards_cont" id="com_card_cont">
+	<div class="ser_cards" id="com_card">
+	<img src="cal.png" class="ser_cards_logo"/><br/><br/>
+	
+	<h1>OneCal</h1>
+	<p class="dots">---</p>
+	<p>Lamco laboris nisi ut aliquip ex ea commodo conseqt.Ex ea commodo consequat. </p>
+	</div>
+	
+	<div class="ser_cards" id="com_card">
+	<img src="mu.jpg" class="ser_cards_logo"/><br/><br/>
+	<h1>MusePro</h1>
+	<p class="dots">---</p>
+	<p>
+	Lamco laboris nisi ut aliquip ex ea commodo conseqt.
+	Ex ea commodo consequat.</p>
+	</div>
+	
+	<div class="ser_cards" id="com_card">
+	<img src="age.jpg" class="ser_cards_logo"/><br/><br/>
+	<h1>AgeCal</h1>
+	<p class="dots">---</p>
+	<p>
+	Lamco laboris nisi ut aliquip ex ea commodo conseqt.
+	Ex ea commodo consequat.</p>
+	</div>
+	
+	<div class="ser_cards" id="com_card">
+	<img src="chat.jpg" class="ser_cards_logo"/><br/><br/>
+	<h1>OneChat</h1>
+	<p class="dots">---</p>
+	<p>
+	Lamco laboris nisi ut aliquip ex ea commodo conseqt.
+	Ex ea commodo consequat.</p>
+	</div>
+	
+</div>
+</div>
+
+</body>
+
+</html>
